@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Bwitter	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="logo.png" class="logo">
+		<h3 >See what is happening in this offbrand twitter website right now</h3>
+		<h4 >Join Bwitter today</h4>
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <br>
+		  <input  maxLength=20 minLength=3 type="text" id="login" placeholder="Username" class="form-control">
+          <label id="loginwarning">Make sure your username is not: Having Spaces, Innaproperiate Words or something that may offend people.</label>
+		  <label id="loginmust">" Your username should be <20 letters and >3 letters </30>"</label>
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="AddUser()">Log in</button>
+		<br><br>
+		
+	</div>
+</center>
+<label id="website_version">website version 0.0.4v</label>
+</body>
+</html>
